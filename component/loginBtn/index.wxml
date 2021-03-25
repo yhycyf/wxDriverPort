@@ -1,0 +1,11 @@
+<view class="loginBtn">
+	<van-overlay show="{{ show }}" z-index="1000000">
+		<view class="flexRow wrapper">
+			<view class="flexCol box">
+				<view class="flexRow title">温馨提示</view>
+				<view class="flexRow content">为了更好的为您服务，请您先登录</view>
+				<button class="flexRow" open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">确认</button>
+			</view>
+		</view>
+	</van-overlay>
+</view>

@@ -1,0 +1,19 @@
+
+	<view class="map">
+		<view class="page-section page-section-gap">
+			<map
+				id="myMap"
+				style="width: 100%; height: calc(100vh - {{height}}rpx)"
+				latitude="{{latitude}}"
+				longitude="{{longitude}}"
+				markers="{{markers}}"
+				show-location
+				bindupdated="bindupdated"
+				bindregionchange="regionchange"
+			>
+				<slot name="location"></slot>
+				<slot name="beginOrder"></slot>
+				<slot name="service"></slot>
+			</map>
+		</view>
+	</view>

@@ -1,0 +1,200 @@
+.flexRow {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.flexCol {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.beginOrderActive {
+  opacity: 0.85;
+}
+.customTag {
+  border-radius: 6rpx;
+  font-size: 20rpx;
+  padding: 0 4rpx;
+  box-sizing: border-box;
+}
+.goGetCar .titleBox {
+  width: 100%;
+  justify-content: space-between;
+}
+.goGetCar .titleBox .titleLeft {
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #151515;
+  line-height: 40rpx;
+}
+.goGetCar .titleBox .titleRight .notice {
+  width: 26rpx;
+  height: 26rpx;
+}
+.goGetCar .titleBox .titleRight .text {
+  font-size: 24rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #E82121;
+}
+.goGetCar .content {
+  width: 100%;
+  align-items: flex-start;
+}
+.goGetCar .content .list {
+  width: 100%;
+  height: 108rpx;
+  justify-content: flex-start;
+  position: relative;
+}
+.goGetCar .content .list .iconBox {
+  width: 40rpx;
+}
+.goGetCar .content .list .iconBox .icon {
+  width: 40rpx;
+  height: 40rpx;
+}
+.goGetCar .content .list .iconBox .iconTime {
+  width: 28rpx;
+  height: 28rpx;
+}
+.goGetCar .content .list .iconBox .iconIphone {
+  width: 32rpx;
+  height: 32rpx;
+}
+.goGetCar .content .list .iconBox .iconPerson {
+  width: 28rpx;
+  height: 28rpx;
+}
+.goGetCar .content .list .textWidth {
+  min-width: 140rpx;
+  max-width: 200rpx;
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #AAAAAA;
+  margin-left: 14rpx;
+  opacity: 0.7;
+}
+.goGetCar .content .list .noSelect {
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #AAAAAA;
+  margin-left: 14rpx;
+  opacity: 0.7;
+}
+.goGetCar .content .list .select {
+  max-width: 100%;
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #343434;
+  opacity: 1;
+}
+.goGetCar .content .list .iphoneText {
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #151515;
+  margin-left: 14rpx;
+}
+.goGetCar .content .list .nameText {
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #151515;
+  margin-left: 14rpx;
+}
+.goGetCar .content .list .tipsBox {
+  margin-left: 34rpx;
+  justify-content: flex-end;
+  position: relative;
+}
+.goGetCar .content .list .tipsBox .locationText {
+  height: 60rpx;
+  background: #1A1840;
+  border-radius: 4rpx;
+  justify-content: space-around;
+}
+.goGetCar .content .list .tipsBox .locationText .textBox .text {
+  max-width: 200rpx;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #FFFFFF;
+  padding: 0 5rpx 0 10rpx;
+}
+.goGetCar .content .list .tipsBox .locationText .icon {
+  width: 38rpx;
+  height: 38rpx;
+  opacity: 0.9;
+}
+.goGetCar .content .list .tipsBox .triangle {
+  position: absolute;
+  z-index: -1;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  left: -15rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+.goGetCar .content .childBox {
+  justify-content: space-between;
+}
+.goGetCar .content .childBox .child {
+  width: 50%;
+  justify-content: flex-start;
+  line-height: 40rpx;
+}
+.goGetCar .content .childBox .child .sendCode {
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #D8D8D8;
+}
+.goGetCar .content .childBox .child .codeSelect {
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #343434;
+}
+.goGetCar .content .line {
+  width: 100%;
+  height: 2rpx;
+  background: #F0F0F0;
+}
+.goGetCar .content .agree {
+  width: 100%;
+  margin-top: 60rpx;
+}
+.goGetCar .content .labelClass {
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #1A1840;
+  margin-left: 8rpx;
+}
+.goGetCar .submit .text {
+  width: 618rpx;
+  height: 80rpx;
+  background: #457CFB;
+  border-radius: 47rpx;
+  margin-top: 62rpx;
+  font-size: 32rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.goGetCar .submit .sendCar {
+  width: 320rpx;
+  height: 80rpx;
+  background: #457CFB;
+  border-radius: 40rpx;
+}

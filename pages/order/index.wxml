@@ -1,0 +1,42 @@
+<!--index.wxml-->
+<view class="myOrder">
+  <van-tabs swipeable line-width="56rpx" line-height="4rpx" active="{{ active }}" bind:change="onChange">
+    <van-tab title="全部">
+      <view class="listBox">
+        <view class="flexCol list">
+          <view class="flexRow title">
+            <view class="text">{{'出险代步车'}}</view>
+            <van-tag custom-class="titleTag" color="#00CB8B" text-color="#FFFFFF" type="primary">接送车</van-tag>
+            <van-tag custom-class="titleTag" color="#457CFB" text-color="#457CFB" type="primary" plain>上门接车</van-tag>
+          </view>
+          <view class="flexCol info">
+            <view class="row">时间：2020年10月29日 17:43</view>
+            <view class="row">地址：{{'北京市昌平区云集中心'}}</view>
+            <view class="row">门店：北京中进百旺4S店</view>
+          </view>
+          <!-- <view class="flexRow btnBox">
+            <view class="btn">取消</view>
+            <view class="btn blue">立即支付</view>
+          </view> -->
+          <view class="flexCol moneyBox">
+            <!-- <view class="flexRow top">
+              <view class="num red">￥</view>
+              <view class="text red">299</view>
+            </view> -->
+            <view class="status red">待支付</view>
+          </view>
+        </view>
+      </view>
+    </van-tab>
+    <van-tab title="进行中">
+      <view class="listBox"></view>
+    </van-tab>
+    <van-tab title="已完成">
+      <view class="listBox"></view>
+    </van-tab>
+    <van-tab title="已关闭">
+      <view class="listBox"></view>
+    </van-tab>
+  </van-tabs>
+</view>
+

@@ -1,0 +1,100 @@
+<!--index.wxml-->
+<view class="personalCenter">
+  <view class="flexRow header">
+    <view class="flexRow userAvatarBox">
+      <view class="avatarBox">
+        <open-data class="userAvatar" mode='aspectFit' type="userAvatarUrl"></open-data>
+      </view>
+    </view>
+    <view class="flexCol userInfo">
+      <view class="name">林璐璐</view>
+      <view class="phone">134******79</view>
+    </view>
+  </view>
+  <view class="top flexRow">
+    <image class="backGroundIng" src="../../image/pCtop.png" />
+    <view class="left" bindtap="myOrder">
+      <view class="title">我的订单</view>
+      <view class="leftNub">{{fromCount}}</view>
+    </view>
+    <view class="center" bindtap="goSelectCar"> 
+      <view class="title">车辆管理</view>
+      <view class="leftNub">{{carCount}}</view>
+    </view>
+    <view class="right" bindtap="goCard">
+      <view class="title">卡券包</view>
+      <view class="leftNub">1123</view>
+    </view>
+  </view>
+  <view class="cell">
+    <van-cell 
+      is-link
+      link-type="navigateTo"
+      url="/pages/dashboard/index"
+      border="{{false}}"
+    >
+      <view class="flexRow left"> 
+        <image class="icon" slot="icon" src="../../image/idCard.png" />
+        <view class="title" slot="title">身份验证</view>
+      </view>
+      <view class="flexRow right">
+      </view>
+    </van-cell>
+    <van-cell
+      is-link
+      link-type="navigateTo"
+      url="/pages/dashboard/index"
+      border="{{false}}"y
+    >
+      <view class="flexRow left">
+        <image class="icon" slot="icon" src="../../image/driverIcon.png" />
+        <view class="title" slot="title">司机招募</view>
+      </view>
+    </van-cell>
+    <van-cell
+      is-link
+      link-type="navigateTo"
+      url="/pages/dashboard/index"
+      border="{{false}}"
+    >
+      <view class="flexRow left">
+        <image class="icon" slot="icon" src="../../image/cooperationIcon.png" />
+        <view class="title" slot="title">企业合作</view>
+      </view>
+    </van-cell>
+    <van-cell
+      is-link 
+      link-type="navigateTo"
+      url="/pages/dashboard/index"
+      border="{{false}}"
+    >
+      <view class="flexRow left">
+        <image class="icon" slot="icon" src="../../image/problemIcon.png" />
+        <view class="title" slot="title">常见问题</view>
+      </view>
+    </van-cell>
+    <van-cell
+      is-link
+      link-type="navigateTo"
+      url="/pages/dashboard/index"
+      border="{{false}}"
+    >
+      <view class="flexRow left">
+        <image class="icon" slot="icon" src="../../image/customerserviceIcon.png" />
+        <view class="title" slot="title">在线客服</view>
+      </view>
+    </van-cell>
+    <van-cell
+      is-link
+      link-type="navigateTo"
+      url="/pages/personalCenter/setting/index"
+      border="{{false}}"
+    >
+      <view class="flexRow left">
+        <image class="icon" slot="icon" src="../../image/setupIcon.png" />
+        <view class="title" slot="title">设置</view>
+      </view>
+    </van-cell>
+  </view>
+</view>
+

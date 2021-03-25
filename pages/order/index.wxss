@@ -1,0 +1,100 @@
+/**index.wxss**/
+.myOrder {
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh;
+  background: #F6F7F9;
+}
+.myOrder .van-tabs__line {
+  background: #6784F3;
+}
+.myOrder .listBox {
+  width: 100%;
+  min-height: calc(100vh - 88rpx);
+  padding: 32rpx 30rpx;
+  box-sizing: border-box;
+}
+.myOrder .listBox .list {
+  width: 100%;
+  background: #FFFFFF;
+  box-shadow: 0rpx 4rpx 8rpx 0rpx rgba(229, 232, 243, 0.66);
+  border-radius: 8rpx;
+  padding: 36rpx 16rpx 34rpx 36rpx;
+  box-sizing: border-box;
+  align-items: flex-start;
+  position: relative;
+}
+.myOrder .listBox .list .title {
+  justify-content: flex-start;
+}
+.myOrder .listBox .list .title .text {
+  font-size: 28rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #212121;
+}
+.myOrder .listBox .list .title .titleTag {
+  margin-left: 8rpx;
+  margin-top: -4rpx;
+  font-size: 20rpx;
+}
+.myOrder .listBox .list .info {
+  align-items: flex-start;
+}
+.myOrder .listBox .list .row {
+  font-size: 22rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #777777;
+  margin-top: 24rpx;
+}
+.myOrder .listBox .list .row:not(:nth-of-type(1)) {
+  margin-top: 12rpx;
+}
+.myOrder .listBox .list .btnBox {
+  width: 100%;
+  justify-content: flex-end;
+}
+.myOrder .listBox .list .btnBox .btn {
+  background: #F4F4F4;
+  border-radius: 31rpx;
+  font-size: 22rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #777777;
+  margin-left: 12rpx;
+  padding: 8rpx 30rpx;
+  box-sizing: border-box;
+}
+.myOrder .listBox .list .btnBox .blue {
+  background: #457CFB;
+  color: #FFFFFF;
+}
+.myOrder .listBox .list .moneyBox {
+  position: absolute;
+  right: 36rpx;
+  top: 36rpx;
+  align-items: flex-end;
+}
+.myOrder .listBox .list .moneyBox .top {
+  align-items: flex-end;
+}
+.myOrder .listBox .list .moneyBox .top .num {
+  font-size: 20rpx;
+  font-weight: 600;
+}
+.myOrder .listBox .list .moneyBox .top .text {
+  font-size: 30rpx;
+  font-weight: 600;
+  line-height: 34rpx;
+}
+.myOrder .listBox .list .moneyBox .status {
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #777777;
+  margin-top: 4rpx;
+}
+.myOrder .listBox .list .moneyBox .red {
+  color: #E82121;
+}

@@ -1,0 +1,42 @@
+<view class="goGetCar">
+	<view class="flexRow titleBox">
+		<view class="titleLeft">
+			{{type == 'send' ? '代步车' : type == 'get' ? '上门取车申请' : ''}}
+			<van-tag custom-class="customTag" plain color="#457CFB" text-color="#457CFB" type="primary">送车上门</van-tag>
+		</view>
+		<view class="flexRow titleRight">
+			<view class="text">剩余时间：1小时17分</view>
+		</view>
+	</view>
+	<view class="flexCol content">
+		<view class="flexRow list" bindtap="selectLocation">
+			<view class="flexRow iconBox">
+				<image class="icon" src="../../image/place.png"></image>
+			</view>
+			<view class="textWidth {{getCarLocation && !showTipsBox ? 'select' : ''}}">{{getCarLocation && !showTipsBox ? getCarLocation : type == 'send' ? '送车地点' : type == 'get' ? '取车地点' : ''}}</view>
+			<view class="flexRow tipsBox" wx:if="{{showTipsBox && type == 'get' && getCarLocation}}">
+				<image class="triangle" src="../../image/triangle_top.png"></image>
+				<view class="flexRow locationText">
+					<view class="textBox" catchtap="getTips">
+						<view class="text">{{getCarLocation}}</view>
+					</view>
+					<image class="icon" src="../../image/close.png" catchtap="closeTipsBox"></image>
+				</view>
+			</view>
+		</view>
+		<view class="line"></view>
+		<view class="flexRow list" bindtap="showPopup" data-type="{{type}}">
+			<view class="flexRow iconBox">
+				<image class="iconTime" src="../../image/time_image.png"></image>
+			</view>
+			<view class="noSelect {{getCarTime ? 'select' : ''}}">{{getCarTime ? getCarTime : type == 'send' ? '送车时间' : type == 'get' ? '取车时间' : ''}}</view>
+		</view>
+		<view class="line"></view>
+	</view>
+	<view class="flexRow submit"  bindtap="submit" data-type="{{type}}"> 
+		<view wx:if="{{type == 'get'}}" class="flexRow text" hover-class="beginOrderActive">申请还车</view>
+		<view wx:if="{{type == 'send'}}" class="flexRow text" hover-class="beginOrderActive">查看详情</view>
+	</view>
+
+	<!-- <datetime-picker show="{{show}}" bind:currentDate="currentDate"></datetime-picker> -->
+</view>

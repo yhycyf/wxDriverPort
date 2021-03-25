@@ -1,0 +1,15 @@
+<!--index.wxml-->
+<view class="returnCar">
+  <map-custom height="{{0}}" id="map" bindlocationEvent="locationEvent">
+  </map-custom>
+  <view class="goGetCar">
+    <message id="message" type="send" getCarLocation="{{getCarLocation}}" bindshowPopup="showPopup" bindseeDetails="seeDetails"></message>
+  </view>
+  <view class="flexRow rightLocation" bindtap="moveToLocation">
+    <view class="flexRow circleBox">
+      <view class="circle"></view>
+    </view>
+  </view>
+  <datetime-picker show="{{show}}"></datetime-picker>
+</view>
+

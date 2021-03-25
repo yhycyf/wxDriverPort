@@ -1,0 +1,9 @@
+{
+  "disableScroll": true,
+  "usingComponents": {
+    "map-custom": "/component/map/index",
+    "message": "/component/message/index",
+    "datetime-picker": "/component/datetimePicker/index"
+  },
+  "navigationBarTitleText": "首页"
+}

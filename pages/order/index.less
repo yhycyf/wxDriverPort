@@ -1,0 +1,101 @@
+/**index.wxss**/
+.myOrder{
+    width: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 100vh;
+    background: #F6F7F9;
+    .van-tabs__line {
+        background: #6784F3;
+    }
+    .listBox {
+        width: 100%;
+        min-height: calc(100vh - 88rpx);
+        padding: 32rpx 30rpx;
+        box-sizing: border-box;
+        .list {
+            width: 100%;
+            background: #FFFFFF;
+            box-shadow: 0rpx 4rpx 8rpx 0rpx rgba(229, 232, 243, 0.66);
+            border-radius: 8rpx;
+            padding: 36rpx 16rpx 34rpx 36rpx;
+            box-sizing: border-box;
+            align-items: flex-start;
+            position: relative;
+            .title {
+                justify-content: flex-start;
+                .text {
+                    font-size: 28rpx;
+                    font-family: PingFangSC-Medium, PingFang SC;
+                    font-weight: 500;
+                    color: #212121;
+                }
+                .titleTag {
+                    margin-left: 8rpx;
+                    margin-top: -4rpx;
+                    font-size: 20rpx;
+                }
+            }
+            .info {
+                align-items: flex-start;
+            }
+            .row {
+                font-size: 22rpx;
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #777777;
+                margin-top: 24rpx;
+            }
+            .row:not(:nth-of-type(1)) {
+                margin-top: 12rpx;
+            }
+            .btnBox {
+                width: 100%;
+                justify-content: flex-end;
+                .btn {
+                    background: #F4F4F4;
+                    border-radius: 31rpx;
+                    font-size: 22rpx;
+                    font-family: PingFangSC-Regular, PingFang SC;
+                    font-weight: 400;
+                    color: #777777;
+                    margin-left: 12rpx;
+                    padding: 8rpx 30rpx;
+                    box-sizing: border-box;
+                }
+                .blue {
+                    background: #457CFB;
+                    color: #FFFFFF;
+                }
+            }
+            .moneyBox {
+                position: absolute;
+                right: 36rpx;
+                top: 36rpx;
+                align-items: flex-end;
+                .top {
+                    align-items: flex-end;
+                    .num {
+                        font-size: 20rpx;
+                        font-weight: 600;
+                    }
+                    .text {
+                        font-size: 30rpx;
+                        font-weight: 600;
+                        line-height: 34rpx;
+                    }
+                }
+                .status {
+                    font-size: 24rpx;
+                    font-family: PingFangSC-Regular, PingFang SC;
+                    font-weight: 400;
+                    color: #777777;
+                    margin-top: 4rpx;
+                }
+                .red {
+                    color: #E82121;
+                }
+            }
+        }
+    }
+}

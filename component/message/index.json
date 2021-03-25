@@ -1,0 +1,11 @@
+{
+    "component": true,
+    "disableScroll": true,
+    "usingComponents": {
+        "van-tag": "@vant/weapp/tag/index",
+        "van-popup": "@vant/weapp/popup/index",
+        "van-checkbox": "@vant/weapp/checkbox/index",
+        "van-icon": "@vant/weapp/icon/index",
+        "datetime-picker": "/component/datetimePicker/index"
+    }
+}   

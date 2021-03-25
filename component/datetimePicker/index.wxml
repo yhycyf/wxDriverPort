@@ -1,0 +1,15 @@
+<view>
+	<van-popup z-index="1000000" show="{{ show }}" position="bottom" bind:close="onClose">
+		<van-datetime-picker
+			id="dateTime"
+			type="datetime"
+			value="{{ currentDate }}"
+			min-date="{{ minDate }}"
+			max-date="{{ maxDate }}"
+			formatter="{{ formatter }}"
+			bind:input="onInput"
+			bind:confirm="confirm"
+			bind:change="change"
+		/>
+	</van-popup>
+</view>
