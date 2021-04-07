@@ -1,0 +1,66 @@
+<!--index.wxml-->
+<view class="bootPage">
+  <view class="header">
+    <view class="title">四维出行 安心赚钱</view>
+  </view>
+  <view class="flexRow selectCity">
+    <view class="left">接单城市</view>
+    <view class="flexRow right">
+      <van-icon size="28rpx" color="#457CFB" name="location-o" />
+      <view class="text">北京市</view>
+      <van-icon size="20rpx" color="#457CFB" name="arrow" />
+    </view>
+  </view>
+  <view class="orderList">
+    <view class="flexRow titleBox">
+      <view class="flexRow iconBox iconLeftBox">
+        <view class="icon1"></view>
+        <view class="icon2"></view>
+        <view class="icon3"></view>
+      </view>
+      <view class="title">海量订单 多劳多得</view>
+      <view class="flexRow iconBox iconRightBox">
+        <view class="icon1"></view>
+        <view class="icon2"></view>
+        <view class="icon3"></view>
+      </view>
+    </view>
+    <view class="flexRow listBox">
+      <view class="flexCol list">
+        <image src="../../image/send_type_4.png" />
+        <view class="text">安全合规</view>
+      </view>
+      <view class="flexCol list">
+         <image src="../../image/send_type_4.png" />
+        <view class="text">收入保障</view>
+      </view>
+      <view class="flexCol list">
+         <image src="../../image/send_type_4.png" />
+        <view class="text">时间灵活</view>
+      </view>
+    </view>
+  </view>
+  <view class="signInKnow">
+    <view class="title">注册须知</view>
+    <view class="require">驾驶员要求：</view>
+    <view class="flexCol textContent">
+      <view class="p">1.年龄：25-50周岁</view>
+      <view class="p">2.驾龄：5年及5年以上驾龄</view>
+      <view class="p">3.准驾车型：C1及C1以上</view>
+      <view class="p">4.信息评审全部通过</view>
+      <view class="p">5.是否加盟成功以代驾平台最终核准标准为准</view>
+    </view>
+  </view>
+  <view class="fixedBottom">
+    <view class="flexRow agree">
+      <van-checkbox label-class="labelClass" checked-color="#00CB8B" icon-size="30rpx" value="{{ checked }}" bind:change="onChangeAgree">
+        点击操作按钮表示同意四维《司机注册协议》
+      </van-checkbox>
+    </view>
+    <view class="flexRow signinLoginBox">
+      <view class="flexRow btn left">上传资料注册</view>
+      <view class="flexRow btn right">登录账号</view>
+    </view>
+  </view>
+</view>
+

@@ -1,0 +1,181 @@
+/**index.wxss**/
+.bootPage{
+    width: 100%;
+    box-sizing: border-box;
+    min-height: 100vh;
+    padding-bottom: 200rpx;
+    background: #EEF0F3;
+    .header {
+        width: 100%;
+        height: 370rpx;
+        background: url('https://img.yzcdn.cn/vant/cat.jpeg') no-repeat;
+        background-size: cover;
+        position: relative;
+        .title {
+            position: absolute;
+            left: 32rpx;
+            bottom: 70rpx;
+            font-size: 48rpx;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: 500;
+            color: #FFFFFF;
+        }
+    }
+    .selectCity {
+        width: 100%;
+        height: 104rpx;
+        background: #ffffff;
+        justify-content: space-between;
+        padding: 0 30rpx;
+        box-sizing: border-box;
+        .left {
+            font-size: 28rpx;
+            font-family: PingFangSC-Medium, PingFang SC;
+            font-weight: 500;
+            color: #151515;
+        }
+        .right {
+            .text {
+                margin-left: 6rpx;
+                margin-right: 8rpx;
+                font-size: 28rpx;
+                font-family: PingFangSC-Medium, PingFang SC;
+                font-weight: 500;
+                color: #457CFB;
+            }
+        }
+    }
+    .orderList {
+        width: 100%;
+        padding: 38rpx 0 52rpx;
+        box-sizing: border-box;
+        margin-top: 20rpx;
+        background: #ffffff;
+        .titleBox {
+            .iconBox {
+                padding: 0 30rpx;
+                box-sizing: border-box;
+                height: 18rpx;
+                overflow: hidden;
+                view {
+                    width: 12rpx;
+                    height: 30rpx;
+                }
+            }
+            .iconLeftBox,.iconRightBox {
+                view {
+                    transform: rotate(-20deg);
+                }
+                .icon1 {
+                    background: #CEDEFF;
+                }
+                .icon2 {
+                    background: #95B4FF;
+                }
+                .icon3 {
+                    background: #457BFB;
+                }
+                .icon2 {
+                    margin: 0 12rpx;
+                }
+            }
+            .iconRightBox {
+                transform: rotate(180deg);
+                view {
+                    transform: rotate(20deg);
+                }
+            }
+        }
+        .listBox {
+            width: 100%;
+            padding: 0 100rpx;
+            box-sizing: border-box;
+            justify-content: space-between;
+            margin-top: 42rpx;
+            .list {
+                image {
+                    width: 98rpx;
+                    height: 98rpx;
+                    border-radius: 50%;
+                }
+                .text {
+                    margin-top: 8rpx;
+                    font-size: 28rpx;
+                    font-family: PingFangSC-Regular, PingFang SC;
+                    font-weight: 400;
+                    color: #151515;
+                }
+            }
+        }
+    }
+    .signInKnow {
+        padding: 28rpx 0 32rpx 32rpx;
+        box-sizing: border-box;
+        .title {
+            font-size: 28rpx;
+            font-family: PingFangSC-Semibold, PingFang SC;
+            font-weight: 600;
+            color: #151515;
+        }
+        .require {
+            margin-top: 24rpx;
+            font-size: 24rpx;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #777777;
+        }
+        .textContent {
+            width: 100%;
+            align-items: flex-start;
+            .p {
+                font-size: 26rpx;
+                font-family: PingFangSC-Regular, PingFang SC;
+                font-weight: 400;
+                color: #787878;
+                margin-top: 14rpx;
+            }
+        }
+    }
+    .fixedBottom {
+        width: 100%;
+        background: #FFFFFF;
+        padding: 28rpx 30rpx 16rpx;
+        box-sizing: border-box;
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        .agree {
+            width: 100%;
+            justify-content: flex-start;
+        }
+        .labelClass {
+            font-size: 24rpx;
+            font-family: PingFangSC-Regular, PingFang SC;
+            font-weight: 400;
+            color: #777777;
+            margin-left: 6rpx;
+        }
+        .signinLoginBox {
+            width: 100%;
+            margin-top: 24rpx;
+            .btn {
+                width: 332rpx;
+                height: 80rpx;
+                border-radius: 8rpx;
+            }
+            .left {
+                font-size: 32rpx;
+                font-family: PingFangSC-Medium, PingFang SC;
+                font-weight: 500;
+                color: #151515;
+            }
+            .right {
+                background: #457CFB;
+                font-size: 32rpx;
+                font-family: PingFangSC-Medium, PingFang SC;
+                font-weight: 500;
+                color: #FFFFFF;
+            }
+        }
+    }
+}

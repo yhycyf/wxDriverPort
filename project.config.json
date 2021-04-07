@@ -79,6 +79,13 @@
 					"id": -1,
 					"name": "订单详情",
 					"pathName": "pages/order/details/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "启动页",
+					"pathName": "pages/bootPage/index",
 					"scene": null
 				}
 			]
