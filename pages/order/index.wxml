@@ -3,7 +3,7 @@
   <van-tabs swipeable line-width="56rpx" line-height="4rpx" active="{{ active }}" bind:change="onChange">
     <van-tab title="全部">
       <view class="listBox">
-        <view class="flexCol list">
+        <view class="flexCol list" hover-class="backGray" bindtap="goDetails">
           <view class="flexRow title">
             <view class="text">{{'出险代步车'}}</view>
             <van-tag custom-class="titleTag" color="#00CB8B" text-color="#FFFFFF" type="primary">接送车</van-tag>

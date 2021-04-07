@@ -1,15 +1,15 @@
 /*
  * @Author: your name
  * @Date: 2021-02-07 09:12:55
- * @LastEditTime: 2021-03-26 13:55:22
+ * @LastEditTime: 2021-03-25 16:57:20
  * @LastEditors: sueRimn
  * @Description: In User Settings Edit
  * @FilePath: \Scooter\pages\index\index.js
  */
 // index.js
 // 获取应用实例
-import utils from '../../utils/index';
-import api from '../../api/api';
+import utils from '../../../utils/index';
+import api from '../../../api/api';
 const app = getApp()
 
 Page({
@@ -24,22 +24,9 @@ Page({
       icon: 'none',
     });
   },
-  goDetails() {
-    wx.navigateTo({
-      url: '/pages/order/details/index'
-    })
-  },
 
   async onShow() {
-    // let res = await api.getUserPersonageFrom();
-    // if(res.flag) {
-    //   this.setData({
-    //     formList: res.data
-    //   })
-    //   console.log('订单总数详情', res)
-    // } else {
-    //   utils.showToast(res.message)
-    // }
+    
   },
   onLoad() {
     

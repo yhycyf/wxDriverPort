@@ -1,0 +1,127 @@
+<!--index.wxml-->
+<view class="details">
+  <view class="flexCol content">
+    <view class="list">
+      <van-cell border="{{false}}">
+        <view class="flexRow titleBox" slot="title">
+          <view class="titleName">订单状态：</view>
+          <view class="titleValue">已完成</view>
+        </view>
+      </van-cell>
+      <van-cell-group border="{{ false }}">
+        <van-cell border="{{ false }}">
+          <view class="flexRow valueBox" slot="title">
+            <view class="contentName">服务项目：</view>
+            <view class="contentValue">出险代步车</view>
+            <van-tag custom-class="customTag" color="#457CFB" text-color="#457CFB" type="primary" plain>上门接车</van-tag>
+          </view>
+        </van-cell>
+        <van-cell border="{{ false }}">
+          <view class="flexRow valueBox" slot="title">
+            <view class="contentName">交车时间：</view>
+            <view class="contentValue">2020年10月29日 17:53</view>
+          </view>
+        </van-cell>
+        <van-cell border="{{ false }}">
+          <view class="flexRow valueBox" slot="title">
+            <view class="contentName">交车地址：</view>
+            <view class="contentValue">北京市昌平区TBD云集中心</view>
+          </view>
+        </van-cell>
+      </van-cell-group>
+    </view>
+    <view class="list">
+      <van-cell border="{{false}}">
+        <view class="flexRow titleBox" slot="title">
+          <view class="titleName titleBold">车辆信息</view>
+        </view>
+      </van-cell>
+      <van-cell-group border="{{ false }}">
+        <van-cell border="{{ false }}">
+          <view class="flexRow valueBox" slot="title">
+            <view class="contentName">车牌号码：</view>
+            <view class="contentValue">京A88888</view>
+          </view>
+        </van-cell>
+        <van-cell border="{{ false }}">
+          <view class="flexRow valueBox" slot="title">
+            <view class="contentName">车辆型号：</view>
+            <view class="contentValue">奥迪A8 黑色 LSHDHSJDKSK</view>
+          </view>
+        </van-cell>
+      </van-cell-group>
+    </view>
+    <view class="list">
+      <van-cell border="{{false}}">
+        <view class="flexRow titleBox" slot="title">
+          <view class="titleName titleBold">车库信息</view>
+        </view>
+      </van-cell>
+      <van-cell-group border="{{ false }}">
+        <van-cell border="{{ false }}">
+          <view class="flexRow valueBox" slot="title">
+            <view class="contentName">车库名称：</view>
+            <view class="contentValue">中进百旺JEEP 4S店</view>
+          </view>
+        </van-cell>
+        <van-cell border="{{ false }}">
+          <view class="flexRow valueBox" slot="title">
+            <view class="contentName">车管姓名：</view>
+            <view class="contentValue">张三</view>
+          </view>
+        </van-cell>
+        <van-cell border="{{ false }}">
+          <view class="flexRow valueBox" slot="title">
+            <view class="contentName">车管姓名：</view>
+            <view class="contentValue">13827838291</view>
+          </view>
+        </van-cell>
+        <van-cell border="{{ false }}">
+          <view class="flexRow valueBox" slot="title">
+            <view class="contentName">取车位置：</view>
+            <view class="contentValue">北京市昌平区西二旗路31号</view>
+          </view>
+        </van-cell>
+      </van-cell-group>
+    </view>
+    <view class="list">
+      <van-cell border="{{false}}">
+        <view class="flexRow titleBox" slot="title">
+          <view class="titleName titleBold">客户信息</view>
+        </view>
+      </van-cell>
+      <van-cell-group border="{{ false }}" custom-class="lastPadding">
+        <van-cell border="{{ false }}">
+          <view class="flexRow valueBox" slot="title">
+            <view class="contentName">客户姓名：</view>
+            <view class="contentValue">张三</view>
+          </view>
+        </van-cell>
+        <van-cell border="{{ false }}">
+          <view class="flexRow valueBox" slot="title">
+            <view class="contentName">客户手机：</view>
+            <view class="contentValue">17567846788</view>
+          </view>
+        </van-cell>
+        <van-cell border="{{ false }}">
+          <view class="flexRow valueBox" slot="title">
+            <view class="contentName">预定时间：</view>
+            <view class="contentValue">2021年11月26日 11:20</view>
+          </view>
+        </van-cell>
+        <van-cell border="{{ false }}">
+          <view class="flexRow valueBox" slot="title">
+            <view class="contentName">预定地点：</view>
+            <view class="contentValue">北京市昌平区西二旗198号</view>
+          </view>
+        </van-cell>
+        <view class="flexRow seeCarInfo">
+          <view class="flexRow btn">查看验车报告</view>
+          <view class="flexRow btn">查看交车单</view>
+        </view>
+      </van-cell-group>
+    </view>
+
+  </view>
+</view>
+

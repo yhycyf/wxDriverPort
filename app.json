@@ -2,6 +2,7 @@
   "pages":[
     "pages/index/index",
     "pages/order/index",
+    "pages/order/details/index",
     "pages/my/index"
   ],
   "useExtendedLib": {

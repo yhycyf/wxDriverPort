@@ -1,0 +1,76 @@
+/**index.wxss**/
+.details {
+  width: 100%;
+  min-height: 100vh;
+  background: #F6F7F9;
+  padding-bottom: 68rpx;
+  box-sizing: border-box;
+}
+.details .content {
+  width: 100%;
+  padding: 0rpx 30rpx;
+  box-sizing: border-box;
+}
+.details .content .list {
+  width: 100%;
+  margin-top: 20rpx;
+}
+.details .content .list .van-cell-group {
+  margin-top: 4rpx;
+  padding: 32rpx 0;
+  box-sizing: border-box;
+  background: #ffffff;
+}
+.details .content .list .van-cell-group .van-cell {
+  padding-top: 6rpx;
+  padding-bottom: 6rpx;
+}
+.details .content .list .titleBox {
+  justify-content: flex-start;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #151515;
+}
+.details .content .list .titleBox .titleBold {
+  font-size: 32rpx;
+  font-family: PingFangSC-Medium, PingFang SC;
+  font-weight: 500;
+  color: #151515;
+}
+.details .content .list .titleBox .titleValue {
+  color: #457CFB;
+}
+.details .content .list .valueBox {
+  justify-content: flex-start;
+  font-size: 28rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #151515;
+}
+.details .content .list .valueBox .contentValue {
+  color: #777777;
+}
+.details .content .list .seeCarInfo {
+  width: 100%;
+  margin-top: 32rpx;
+}
+.details .content .list .seeCarInfo .btn {
+  width: 300rpx;
+  height: 64rpx;
+  border-radius: 4rpx;
+  border: 2rpx solid #457CFB;
+  font-size: 24rpx;
+  font-family: PingFangSC-Regular, PingFang SC;
+  font-weight: 400;
+  color: #457CFB;
+}
+.details .content .list .seeCarInfo .btn:last-child {
+  margin-left: 16rpx;
+}
+.details .content .list .lastPadding {
+  padding-bottom: 78rpx;
+}
+.details .content .customTag {
+  margin-left: 8rpx;
+}
